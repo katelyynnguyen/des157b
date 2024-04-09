@@ -1,0 +1,166 @@
+/* CSS Resets */
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+/* Page styling */
+body {
+    background-color: #366D8C;
+    color: #E4ECF7;
+    transition: all 2s;
+}
+
+body.switch {
+    background-color: #FDE2D9;
+    color: #F47153;
+}
+
+#container {
+    position: relative;
+    width: 100%;
+    max-width: 1366px;
+    /* make sure the columns don't get too small and text stays readable */
+    min-width: 900px;
+    margin: 1em auto;
+    padding-top: 2em;
+}
+
+header {
+    margin: 0 auto 2em auto;
+    margin-bottom: 0;
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+#banner {
+    position: relative;
+    display: flex;
+    width: 1100px;
+    height: 250px;
+    margin: auto;
+    background-image: url(images/buds.png);
+    overflow: hidden;
+    display: grid;
+	place-items: center;
+}
+
+#banner.switch {
+    background-image: url(images/poppies.png);
+    transition: all 1.5s;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1em auto;
+    font-family: 'Bitter', serif;
+}
+
+main section {
+    flex: 1;
+    margin: 0 .25em;
+    padding: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    background-color: #E4ECF7;
+    color: #366D8C;
+    padding: 8px 12px;
+    border-radius: 20px;
+    display: table;
+}
+
+nav ol, nav ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+section li {
+    padding-left: 1.2em;
+}
+
+section a {
+    line-height: 1.1em;
+    display: inline-block;
+    padding: .5em;
+    color: #E4ECF7;
+    transition: all .2s ease-in-out;
+}
+
+section a:hover {
+    background-color: #9CC2D7;
+    color: #31485E;
+    transform: scale(1.25);
+    border-radius: 10px;
+}
+
+
+section.switch a {
+    color: #F47153;
+}
+
+section.switch a:hover {
+    background-color: #F7A695;
+    color: #B84A31;
+}
+
+section.switch h3 {
+    background-color: #F47153;
+    color: #FDE2D9;
+}
+
+button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 12px;
+    color: #E4ECF7;
+    border: 1.5px solid transparent;
+    border-color: #E4ECF7;
+    border-radius: 25px;
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #366D8C;
+}
+
+button:hover {
+    background-color: #F47153;
+    border-color: #F47153;
+    color: #FDE2D9;
+    cursor: pointer;
+}
+
+button.switch {
+    background-color: #FDE2D9;
+    border-color: #F47153;
+    color: #F47153;
+}
+
+button.switch:hover {
+    background-color: #366D8C;
+    border-color: #366D8C;
+    color: #E4ECF7;
+}
