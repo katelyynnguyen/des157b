@@ -49,10 +49,12 @@ h2 {
 #banner {
     position: relative;
     display: flex;
+    gap: 30px;
     width: 1100px;
-    height: 250px;
+    height: 255px;
     margin: auto;
     background-image: url(images/buds.png);
+    background-repeat: space;
     overflow: hidden;
     display: grid;
 	place-items: center;
