@@ -1,4 +1,4 @@
-#waterfall {
+#lake {
     position: fixed;
     right: 0;
     bottom: 0;
@@ -16,4 +16,66 @@
 
 .fa-expand:hover {
     cursor: pointer;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.showing {
+    opacity: 1;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+#line1 {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    transition-duration: 0.5s, 5s;
+}
+
+#line2 {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    transition-duration: 0.5s, 5s;
+}
+
+#line3 {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    transition-duration: 0.5s, 5s;
+}
+
+#line4 {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    transition-duration: 0.5s, 5s;
+}
+
+.bw {
+    filter: grayscale(100%) contrast(150%) invert(10%);
+}
+
+#gray {
+    position: absolute;
+    font-size: 20px;
+    padding: 10px 15px;
+    font-weight: 400;
+    top: 20px;
+    left: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+#gray:hover {
+    background-color: #FEBF59;
 }

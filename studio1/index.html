@@ -25,20 +25,7 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <video id="waterfall" poster="images/waterfall.png" controls muted loop autoplay playsinline>
-        <source src="media/waterfall.mp4" type="video/mp4">
-        <source src="media/waterfall.webm" type="video/webm">
-
-        <p>Your browser doesn't support HTML5 video.
-            Here is a <a href="media/waterfall.mp4">link to the video</a> instead.
-        </p>
-    </video>
-
-    <section id="controls">
-        <i class="fas fa-expand"></i>
-    </section>
-
-    <video id="lake" poster="images/waterfall.png" muted loop autoplay playsinline>
+    <video id="lake" class="color" poster="images/waterfall.png" controls muted loop autoplay playsinline>
         <source src="media/lake.mp4" type="video/mp4">
         <source src="media/lake.webm" type="video/webm">
 
@@ -46,7 +33,21 @@
             Here is a <a href="media/lake.mp4">link to the video</a> instead.
         </p>
     </video>
-    
+
+    <section id="controls">
+        <i class="fas fa-expand"></i>
+    </section>
+
+    <section>
+        <p id="line1" class="hidden">here is a little forest</p>
+        <p id="line2" class="hidden">whose leaf is ever green</p>
+        <p id="line3" class="hidden">here is a brighter garden</p>
+        <p id="line4" class="hidden">where not a frost has been</p>        
+    </section>
+
+    <button id="gray">filter</button>
+
+
 
 </body>
 </html>
