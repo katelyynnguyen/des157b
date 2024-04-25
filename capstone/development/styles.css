@@ -1,0 +1,18 @@
+body {
+    font-family: 'Playfair Display', serif;
+    max-width: 700px;
+    margin: auto;
+    background-color: #ECECEA;
+}
+h1 {
+    font-size: 48px;
+    margin: 50px 0px;
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+ul li {
+    line-height: 1.5rem;
+}
