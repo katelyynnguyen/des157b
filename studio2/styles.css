@@ -1,0 +1,36 @@
+body {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 100;
+}
+
+#time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#picker {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#messages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+

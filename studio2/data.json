@@ -1,0 +1,158 @@
+{
+    "intervals": [
+      {
+        "start": "2024-04-24T014:00:00Z",
+        "end": "2024-04-24T14:15:00Z",
+        "text_data": [
+          {
+            "name": "Edwin",
+            "num_texts": 18,
+            "last_text_timestamp": "2024-04-24T14:06:00Z"
+          },
+          {
+            "name": "Jared",
+            "num_texts": 9,
+            "last_text_timestamp": "2024-04-24T14:06:00Z"
+          },
+          {
+            "name": "Jeremiah",
+            "num_texts": 1,
+            "last_text_timestamp": "2024-04-24T14:006:00Z"
+          },
+          {
+            "name": "Kylie",
+            "num_texts": 12,
+            "last_text_timestamp": "2024-04-24T14:11:00Z"
+          }
+        ]
+      },
+      {
+        "start": "2024-04-24T14:15:00Z",
+        "end": "2024-04-24T14:30:00Z",
+        "text_data": [
+          {
+            "name": "Mom",
+            "num_texts": 34,
+            "last_text_timestamp": "2024-04-24T14:29:00Z"
+          },
+          {
+            "name": "Kylie",
+            "num_texts": 1,
+            "last_text_timestamp": "2024-04-24T14:27:00Z"
+          }
+        ]
+      },
+      {
+        "start": "2024-04-24T14:30:00Z",
+        "end": "2024-04-24T14:45:00Z",
+        "text_data": [
+          {
+            "name": "Mom",
+            "num_texts": 1,
+            "last_text_timestamp": "2024-04-24T14:33:00Z"
+          },
+          {
+            "name": "Keren",
+            "num_texts": 9,
+            "last_text_timestamp": "2024-04-24T14:42:00Z"
+          },
+          {
+            "name": "Auntie Shelli",
+            "num_texts": 1,
+            "last_text_timestamp": "2024-04-24T14:30:00Z"
+          }
+        ]
+      },
+      {
+        "start": "2024-04-24T14:45:00Z",
+        "end": "2024-04-24T15:00:00Z",
+        "text_data": [
+          {
+            "name": "Keren",
+            "num_texts": 1,
+            "last_text_timestamp": "2024-04-24T14:50:00Z"
+          },
+          {
+            "name": "Chloe",
+            "num_texts": 19,
+            "last_text_timestamp": "2024-04-24T14:59:00Z"
+          },
+          {
+            "name": "Auntie Shelli",
+            "num_texts": 1,
+            "last_text_timestamp": "2024-04-24T14:57:00Z"
+          },
+          {
+            "name": "Mom",
+            "num_texts": 4,
+            "last_text_timestamp": "2024-04-24T14:59:00Z"
+          }
+        ]
+      },
+      {
+        "start": "2024-04-24T15:00:00Z",
+        "end": "2024-04-24T15:15:00Z",
+        "text_data": [
+          {
+            "name": "Mom",
+            "num_texts": 28,
+            "last_text_timestamp": "2024-04-24T15:14:00Z"
+          }
+        ] 
+      }, 
+            {
+        "start": "2024-04-24T15:15:00Z",
+        "end": "2024-04-24T15:30:00Z",
+        "text_data": [
+          {
+            "name": "Mom",
+            "num_texts": 10,
+            "last_text_timestamp": "2024-04-24T15:29:00Z"
+          },
+          {
+            "name": "Auntie Shelli",
+            "num_texts": 14,
+            "last_text_timestamp": "2024-04-24T15:29:00Z"
+          },
+          {
+            "name": "Kylie",
+            "num_texts": 1,
+            "last_text_timestamp": "2024-04-24T15:17:00Z"
+          }
+        ]
+      },
+      {
+        "start": "2024-04-24T15:30:00Z",
+        "end": "2024-04-24T15:45:00Z",
+        "text_data": [
+          {
+            "name": "Auntie Shelli",
+            "num_texts": 7,
+            "last_text_timestamp": "2024-04-24T15:39:00Z"
+          },
+          {
+            "name": "Mom",
+            "num_texts": 12,
+            "last_text_timestamp": "2024-04-24T15:41:00Z"
+          }
+        ]
+      },
+      {
+        "start": "2024-04-24T15:45:00Z",
+        "end": "2024-04-24T16:00:00Z",
+        "text_data": [
+          {
+            "name": "Auntie Shelli",
+            "num_texts": 1,
+            "last_text_timestamp": "2024-04-24T15:49:00Z"
+          },
+          {
+            "name": "Mom",
+            "num_texts": 3,
+            "last_text_timestamp": "2024-04-24T15:52:00Z"
+          }
+        ]
+      }
+    ]
+  }
+  
