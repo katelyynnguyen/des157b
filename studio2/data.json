@@ -3,153 +3,161 @@
       {
         "start": "2024-04-24T014:00:00Z",
         "end": "2024-04-24T14:15:00Z",
+        "interval_name": "2:00 - 2:15",
         "text_data": [
           {
             "name": "Edwin",
             "num_texts": 18,
-            "last_text_timestamp": "2024-04-24T14:06:00Z"
+            "last_text_timestamp": "2:06 PM"
           },
           {
             "name": "Jared",
             "num_texts": 9,
-            "last_text_timestamp": "2024-04-24T14:06:00Z"
+            "last_text_timestamp": "2:06 PM"
           },
           {
             "name": "Jeremiah",
             "num_texts": 1,
-            "last_text_timestamp": "2024-04-24T14:006:00Z"
+            "last_text_timestamp": "2:01 PM"
           },
           {
             "name": "Kylie",
             "num_texts": 12,
-            "last_text_timestamp": "2024-04-24T14:11:00Z"
+            "last_text_timestamp": "2:11 PM"
           }
         ]
       },
       {
         "start": "2024-04-24T14:15:00Z",
         "end": "2024-04-24T14:30:00Z",
+        "interval_name": "2:15 - 2:30",
         "text_data": [
           {
             "name": "Mom",
             "num_texts": 34,
-            "last_text_timestamp": "2024-04-24T14:29:00Z"
+            "last_text_timestamp": "2:29 PM"
           },
           {
             "name": "Kylie",
             "num_texts": 1,
-            "last_text_timestamp": "2024-04-24T14:27:00Z"
+            "last_text_timestamp": "2:27 PM"
           }
         ]
       },
       {
         "start": "2024-04-24T14:30:00Z",
         "end": "2024-04-24T14:45:00Z",
+        "interval_name": "2:30 - 2:45",
         "text_data": [
           {
             "name": "Mom",
             "num_texts": 1,
-            "last_text_timestamp": "2024-04-24T14:33:00Z"
+            "last_text_timestamp": "2:33 PM"
           },
           {
             "name": "Keren",
             "num_texts": 9,
-            "last_text_timestamp": "2024-04-24T14:42:00Z"
+            "last_text_timestamp": "2:42 PM"
           },
           {
             "name": "Auntie Shelli",
             "num_texts": 1,
-            "last_text_timestamp": "2024-04-24T14:30:00Z"
+            "last_text_timestamp": "2:30 PM"
           }
         ]
       },
       {
         "start": "2024-04-24T14:45:00Z",
         "end": "2024-04-24T15:00:00Z",
+        "interval_name": "2:45 - 3:00",
         "text_data": [
           {
             "name": "Keren",
             "num_texts": 1,
-            "last_text_timestamp": "2024-04-24T14:50:00Z"
+            "last_text_timestamp": "2:50 PM"
           },
           {
             "name": "Chloe",
             "num_texts": 19,
-            "last_text_timestamp": "2024-04-24T14:59:00Z"
+            "last_text_timestamp": "2:59 PM"
           },
           {
             "name": "Auntie Shelli",
             "num_texts": 1,
-            "last_text_timestamp": "2024-04-24T14:57:00Z"
+            "last_text_timestamp": "2:57 PM"
           },
           {
             "name": "Mom",
             "num_texts": 4,
-            "last_text_timestamp": "2024-04-24T14:59:00Z"
+            "last_text_timestamp": "2:59 PM"
           }
         ]
       },
       {
         "start": "2024-04-24T15:00:00Z",
         "end": "2024-04-24T15:15:00Z",
+        "interval_name": "3:00 - 3:15",
         "text_data": [
           {
             "name": "Mom",
             "num_texts": 28,
-            "last_text_timestamp": "2024-04-24T15:14:00Z"
+            "last_text_timestamp": "3:14 PM"
           }
         ] 
       }, 
-            {
+      {
         "start": "2024-04-24T15:15:00Z",
         "end": "2024-04-24T15:30:00Z",
+        "interval_name": "3:15 - 3:30",
         "text_data": [
           {
             "name": "Mom",
             "num_texts": 10,
-            "last_text_timestamp": "2024-04-24T15:29:00Z"
+            "last_text_timestamp": "3:29 PM"
           },
           {
             "name": "Auntie Shelli",
             "num_texts": 14,
-            "last_text_timestamp": "2024-04-24T15:29:00Z"
+            "last_text_timestamp": "3:29 PM"
           },
           {
             "name": "Kylie",
             "num_texts": 1,
-            "last_text_timestamp": "2024-04-24T15:17:00Z"
+            "last_text_timestamp": "3:17 PM"
           }
         ]
       },
       {
         "start": "2024-04-24T15:30:00Z",
         "end": "2024-04-24T15:45:00Z",
+        "interval_name": "3:30 - 3:45",
         "text_data": [
           {
             "name": "Auntie Shelli",
             "num_texts": 7,
-            "last_text_timestamp": "2024-04-24T15:39:00Z"
+            "last_text_timestamp": "3:39 PM"
           },
           {
             "name": "Mom",
             "num_texts": 12,
-            "last_text_timestamp": "2024-04-24T15:41:00Z"
+            "last_text_timestamp": "3:41 PM"
           }
         ]
       },
       {
         "start": "2024-04-24T15:45:00Z",
         "end": "2024-04-24T16:00:00Z",
+        "interval_name": "3:45 - 4:00",
         "text_data": [
           {
             "name": "Auntie Shelli",
             "num_texts": 1,
-            "last_text_timestamp": "2024-04-24T15:49:00Z"
+            "last_text_timestamp": "3:49 PM"
           },
           {
             "name": "Mom",
             "num_texts": 3,
-            "last_text_timestamp": "2024-04-24T15:52:00Z"
+            "last_text_timestamp": "3:52 PM"
           }
         ]
       }

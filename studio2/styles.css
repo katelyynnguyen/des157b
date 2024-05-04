@@ -16,7 +16,7 @@ h2 {
     font-weight: 100;
 }
 
-#time {
+#interface {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,12 +25,58 @@ h2 {
 #picker {
     text-align: center;
     margin: 20px 0;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 7px;
+    color: #FFFFFF;
+    background-color:#1E1E1E;
 }
 
 #messages {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px 0;
+    margin: 20px 0 40px;
 }
 
+.hidden {
+    visibility: hidden;
+}
+
+.showing {
+    width: 536px;
+    height: 400px;
+    background-color: #353434;
+    margin: auto;
+    align-items: center;
+    border-radius: 17px;
+}
+
+p {
+    margin: 48px;
+    width: 431px;
+    justify-content: space-between;
+}
+
+h3 {
+    font-size: 32px;
+    margin: 0 48px;
+    padding-top: 40px;
+}
+
+#textData div{
+    margin: auto;
+    width: 431px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 2.5rem;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.time {
+    font-weight: 200;
+}

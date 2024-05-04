@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
     <title>check yourself</title>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
@@ -19,7 +20,7 @@
     </header>
     
     <main>
-        <div id="time">
+        <div id="interface">
             <form>
                 <select id="picker">
 
@@ -28,6 +29,11 @@
         </div>
         <div id="messages">
             <img src="images/messages.png" alt="messages">            
+        </div>
+
+        <div id="result" class="hidden">
+            <h3>Messages</h3>
+            <div id="textData"></div>
         </div>
 
     </main>
