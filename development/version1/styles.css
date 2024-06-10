@@ -1,0 +1,107 @@
+body {
+    background-color: #313453;
+    font-family: 'Cousine', sans-serif;
+    color: #FCF3E4;
+    font-weight: 400;
+    scroll-behavior: smooth;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+#landing {
+    margin: 40% 0 10%;
+}
+
+#learn {
+    margin: 20% 0 0 12%;
+    background: rgb(254,127,92);
+    background: radial-gradient(circle, rgba(254,127,92,1) 0%, rgba(255,211,146,1) 77%); 
+    width: 550px;
+    padding: 80px 20px 400px;
+    border-radius: 50%;
+}
+
+.bkgnd {
+    margin: 10% 0 35%;
+}
+
+#predictions {
+    margin: 0 0 40%;
+}
+
+#buttons {
+    margin: 10% 0;
+    display: flex;
+    gap: 15px;
+    justify-content: space-evenly;
+}
+button {
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Cousine', sans-serif; 
+    border-radius: 10px;
+    background-color: #72CEC1;
+    color: #313453;
+    border-style: none;
+}
+
+button:hover {
+    background-color: #55B1A4;
+    color: #FCF3E4;
+}
+
+#decision {
+    margin: 40% 0 40%;
+}
+
+#chartStat {
+    margin: 0 0 15%;
+}
+
+#chart {
+    margin-bottom: 20%;
+}
+
+#future {
+    margin-bottom: 5%;
+
+}
+
+#futureDesc {
+    font-size: 24px;
+}
+
+#aiUses {
+    font-size: 24px;
+    text-align: left;
+    margin: 10% 0;
+}
+
+.captions {
+    font-size: 20px;
+}
+
+#picBank {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+p {
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 8% 0 15%;
+}
+
+
