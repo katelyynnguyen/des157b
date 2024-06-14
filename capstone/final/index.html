@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cousine:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+
+    <!--Chart.js-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!--My stylesheet-->
+    <link href="styles.css" rel="stylesheet">
+
+    <title>capstone final</title>
+
+    <!--My script-->
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <section id="landing">
+        <div id="introText">
+            <div id="title">
+                <h1>what can you expect in the design industry (specifically UX Design) in the next few years?</h1>
+            </div>
+            <div id="learn" class="bounce-2">
+                <h2>LEARN MORE</h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="intro">
+        <div data-aos="fade-up" class="bkgnd">
+            <p>
+                in the 1990s, the dot com boom left many afraid that their jobs were going to get taken over by technology...
+            </p>                
+        </div>
+
+        <div data-aos="fade-up" class="bkgnd">
+            <p>
+                instead, it created opportunities for new jobs to arise, including <u>UX Design</u>
+            </p>                
+        </div>
+    </section>
+    
+    <section id="technologies">
+        <div data-aos="fade-up" id="predictions">
+            <p>
+                current designers have made predictions about which technologies will impact the design scene. which ones do you think will make the biggest impact?
+            </p>
+
+            <p id="select">
+                (select one)
+            </p>
+
+            <div id="buttons">
+                <button>artificial intelligence / machine learning</button>
+                <button>collaborative design software</button>
+                <button>augmented reality / virtual reality</button>
+                <button>telepresence / virtual workspaces</button>
+                <button>online behavior tracking / modeling</button>
+            </div>                
+        </div>
+
+        <div data-aos="fade-up" id="decision">
+            <p id="selectedText" ></p>                
+        </div>
+
+        <div data-aos="fade-up">
+            <p id="chartStat">about 49% of them actually</p>
+
+            <div class="chartBox">
+                <canvas id="myChart"></canvas>
+            </div>
+        </div>
+
+
+        <div data-aos="fade-up" class="bkgnd">
+            <p>but not in the way that many think...</p>                
+        </div>
+
+    </section>
+
+    <section>
+        <div data-aos="fade-up" class="bkgnd">
+            <p>
+                the dot com boom brought many new jobs when people thought they’d be taken away
+            </p>
+        </div>
+
+        <div data-aos="fade-up" class="bkgnd">
+            <p>
+                and we know that history tends to repeat itself...
+            </p>
+        </div>
+        
+        <div data-aos="fade-up" class="bkgnd">
+            <p>
+                so with new technologies emerging, UX Design has been in higher demand than ever!
+            </p>
+        </div>
+    </section>
+
+    <section id="theFuture">
+        <div data-aos="fade-up">
+            <h1 id="future">
+                THE FUTURE
+            </h1>
+        </div>
+
+        <div data-aos="fade-up" id="ai" class="showing">
+            <p class="futureDesc">
+                expect to see UX Designers working with AI to enhance human creativity & problem solving skills 
+            </p>
+
+            <h2 class="uses">
+                AI can be used to:
+            </h2>
+
+            <div class="picBank">
+                <div>
+                    <div class="captions">
+                        prototype
+                    </div>
+                </div>
+
+                <div>
+                    <div class="captions">
+                        usability test
+                    </div>
+                </div>
+
+                <div>
+                    <div class="captions">
+                        provide feedback
+                    </div>
+                </div>                
+            </div>
+            <div data-aos="fade-up">
+                <h3>
+                    allowing designers to have more time to actually create designs 
+                </h3>            
+            </div>
+        </div>
+
+        <div data-aos="fade-up" id="cds" class="hidden">
+            <p class="futureDesc">
+                expect to see UX Designers using collaborative design software to enhance human creativity & problem solving skills 
+            </p>
+
+            <h2 class="uses">
+                collaborative design software can be used to:
+            </h2>
+
+            <div class="picBank">
+                <div>
+                    <div class="captions">
+                        brainstorm
+                    </div>
+                </div>
+
+                <div>
+                    <div class="captions">
+                        delegate tasks 
+                    </div>
+                </div>
+
+                <div>
+                    <div class="captions">
+                        effeciently work on designs
+                    </div>
+                </div>                
+            </div>
+            <div data-aos="fade-up">
+                <h3>
+                    allowing designers to be creatively remotely 
+                </h3>            
+            </div>
+        </div>
+
+
+    </section>
+
+</body>
+</html>

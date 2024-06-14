@@ -1,0 +1,148 @@
+body {
+    background-color: #313453;
+    font-family: 'Cousine', sans-serif;
+    color: #FCF3E4;
+    font-weight: 400;
+    scroll-behavior: smooth;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+#landing {
+    margin: 40% 0 10%;
+}
+
+#learn {
+    margin: 20% 0 0 12%;
+    background: rgb(254,127,92);
+    background: radial-gradient(circle, rgba(254,127,92,1) 0%, rgba(255,211,146,1) 77%); 
+    width: 550px;
+    padding: 80px 20px 400px;
+    border-radius: 50%;
+
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+.bounce-2 {
+    animation-name: bounce-2;
+    animation-timing-function: ease;
+}
+@keyframes bounce-2 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-30px); }
+    100% { transform: translateY(0); }
+}
+
+.bkgnd {
+    margin: 10% 0 50%;
+}
+
+#predictions {
+    margin: 0 0 40%;
+}
+
+#buttons {
+    margin: 15% 0;
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    width: 900px;
+
+}
+button {
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Cousine', sans-serif; 
+    border-radius: 10px;
+    background-color: #72CEC1;
+    color: #313453;
+    border-style: none;
+    flex: 1;
+}
+
+button:hover {
+    background-color: #55B1A4;
+    color: #FCF3E4;
+}
+
+#decision {
+    margin: 40% 0 50%;
+}
+
+#chartStat {
+    margin: 0 0 15%;
+}
+
+
+#future {
+    margin-bottom: 5%;
+}
+
+.futureDesc {
+    font-size: 24px;
+}
+
+.uses {
+    font-size: 24px;
+    text-align: left;
+    margin: 10% 0;
+}
+
+.captions {
+    font-size: 20px;
+    margin-bottom: 20%;
+}
+
+.picBank {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.selected {
+    background-color: #55B1A4;
+    color: #FCF3E4;
+}
+
+#select {
+    font-size: 20px;
+}
+
+#myChart {
+    margin-bottom: 40%;
+}
+
+.chartBox {
+    /* width: 600px; */
+    margin: auto;
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.showing {
+    visibility: visible;
+    opacity: 1;
+}
+
+p {
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 8% 0 15%;
+}
+
+
